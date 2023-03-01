@@ -883,6 +883,52 @@ section {
 }
 
 /*--------------------------------------------------------------
+# contents pages
+--------------------------------------------------------------*/
+.cp .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.cp .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cp .content ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.cp .content ul li:first-child {
+  margin-top: 10px;
+}
+
+.cp .content ul i {
+  background: #fff;
+  box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+  font-size: 24px;
+  padding: 1px;
+  margin-right: 10px;
+  color: #00aeef;
+  border-radius: 50px;
+}
+
+.cp .content ul h5 {
+  font-size: 20px;
+  color: #00aeef;
+}
+
+.cp .content ul p {
+  font-size: 18px;
+}
+
+.cp .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
