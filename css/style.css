@@ -593,7 +593,7 @@ h6 {
 --------------------------------------------------------------*/
 #Ptitle {
   width: 100%;
-  height: 40vh;
+  height: 25vh;
   background: url("https://cdn.jsdelivr.net/gh/sycaotech2022/SyCAO-technologie@03c5e0c340dfc2e236eecf5b8805fb56612797e9/img/hero-bg.jpg") top left;
   background-size: cover;
   position: relative;
@@ -641,7 +641,7 @@ h6 {
 
 @media (max-width: 768px) {
   #Ptitle {
-    height: 40vh;
+    height: 25vh;
   }
 
   #Ptitle h1 {
@@ -658,7 +658,7 @@ h6 {
 
 @media (max-height: 500px) {
   #Ptitle {
-    height: 40vh;
+    height: 25vh;
   }
 }
 
